@@ -41,7 +41,9 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
-    <icon src="icon.png" />
+
+    <icon src="photorecord.png" />
+    <!--
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
     <icon gap:platform="android" gap:qualifier="hdpi" src="www/res/icon/android/icon-72-hdpi.png" />
@@ -55,6 +57,7 @@
     <icon gap:platform="webos" src="www/res/icon/webos/icon-64.png" />
     <icon gap:platform="winphone" src="www/res/icon/windows-phone/icon-48.png" />
     <icon gap:platform="winphone" gap:role="background" src="www/res/icon/windows-phone/icon-173-tile.png" />
+    -->
     <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="www/res/screen/android/screen-ldpi-portrait.png" />
     <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="www/res/screen/android/screen-mdpi-portrait.png" />
     <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="www/res/screen/android/screen-hdpi-portrait.png" />
