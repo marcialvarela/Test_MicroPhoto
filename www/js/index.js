@@ -433,6 +433,7 @@ function exitApp() {
 
 /*************************** PHOTO - INI ***************************/
 
+/*
 var pictureSource;   // picture source
 var destinationType; // sets the format of returned value
 
@@ -517,6 +518,6 @@ function getPhoto(source) {
 function onFail(message) {
     alert('Failed because: ' + message);
 }
-
+*/
 /*************************** PHOTO - END ***************************/
 
