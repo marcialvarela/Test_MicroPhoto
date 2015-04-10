@@ -81,8 +81,17 @@ var playStatus = 0;
 window.addEventListener('load', function () {
     document.getElementById('playAudio_Push').style.visibility="hidden";
     document.getElementById('recImg').style.visibility="hidden";
+    document.getElementById('okImg').style.visibility="hidden";
     document.addEventListener("deviceReady", onDeviceReady, false);
 }, false);
+
+function cambiaIcono()
+{
+    alert('Entra CambiaIcono()');
+    document.getElementById('photoImg').style.visibility="hidden";
+    document.getElementById('recordAudio_Push').style.visibility="hidden";
+    document.getElementById('okImg').style.visibility="visible";
+}
 
 
 function onDeviceReady() {
@@ -238,6 +247,7 @@ document.getElementById('recordAudio_Push').addEventListener('touchend',function
     flag = false;
 
 },false);
+
 
 /**************************************** WINDOW EVENTS ****************************************/
 /**************************************** WINDOW EVENTS ****************************************/
